@@ -68,6 +68,7 @@ def pesquisarClientes(nome):
     for cliente in clientes:
         if cliente["nome"] == nome:
             return cliente
+    return None
 
 
 # Funções da parte dos pedidos
@@ -194,14 +195,24 @@ def menu():
                 print(produto)
 
         elif opcao == 2:
-            pesquisarProdutos()
+            nome = input("Digite o nome do produto desejado: ")
+            produto = pesquisarProdutos(nome)
+            if produto:
+                print(produto)
+            else:
+                print("Produto não encontrado")
 
         elif opcao == 3:
             for cliente in clientes:
                 print(cliente)
 
         elif opcao == 4:
-            pesquisarClientes()
+            nome = input("Digite o nome do cliente desejado: ")
+            cliente = pesquisarClientes(nome)
+            if cliente:
+                print(cliente)
+            else:
+                print("Cliente não encontrado")
 
         elif opcao == 5:
             for pedido in pedidos:

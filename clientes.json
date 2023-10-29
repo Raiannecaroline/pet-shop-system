@@ -1,1 +1,1 @@
-{"clientes": ["pedidos"]}
+{"clientes": [{"nome": "Joao Silva", "cpf": "123.456.789-00", "email": "joao@example.com", "telefone": "(11) 1234-5678"}]}
