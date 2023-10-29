@@ -1,0 +1,29 @@
+{
+  "produtos": [
+    {
+      "nome": "Racao para cachorro (KG)",
+      "quantidade": 1000,
+      "preco": 18
+    },
+    {
+      "nome": "Racao para gato (KG)",
+      "quantidade": 1000,
+      "preco": 18
+    },
+    {
+      "nome": "Sache para gato",
+      "quantidade": 1000,
+      "preco": 3
+    },
+    {
+      "nome": "Sache para cachorro",
+      "quantidade": 1000,
+      "preco": 3
+    },
+    {
+      "nome": "Areia de Gato",
+      "quantidade": 100,
+      "preco": 10.0
+    }
+  ]
+}

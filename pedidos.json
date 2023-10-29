@@ -1,0 +1,22 @@
+{
+  "pedidos": [
+    {
+      "id": 1,
+      "cliente": "Joao",
+      "produto": "Racao para Caes",
+      "quantidade": 3
+    },
+    {
+      "id": 2,
+      "cliente": "Maria",
+      "produto": "Areia para Gatos",
+      "quantidade": 2
+    },
+    {
+      "id": 6,
+      "cliente": "Maria",
+      "produto": "Areia de Gato",
+      "quantidade": 4
+    }
+  ]
+}
